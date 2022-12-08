@@ -1,0 +1,426 @@
+*{margin: 0;
+  padding: 0;
+  list-style: none;
+  a:active {color:#fff;} 
+  a:hover {color:#000;} 
+}/* se agregaron los margenes de la pagina web*/
+body{
+
+	background: #323146;
+	font-family: Arial;
+}/*se agrego el color de fondo de la pagina web y la fuente de letra que se utilizo */
+p{
+background-color: #fff ;
+color: #000;
+font-size: 20px;
+font-family:arial, Helvetica,Sans-serif;
+word-spacing: 1.5px;  
+align-content: justify;
+margin-top: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-left:10px;
+} /* se agrego el estilo a los apartados de textos p, en estos se incluyeron los posibles estilos de fuentes, espaciado, 
+alineado del texto, margen superior, inferior, derecho e izquierdo, asi como el color del texto y el fondo del texto*/
+
+.contenedor2 {
+	width: 100%;
+	max-width:1000px;
+	margin:auto;
+}/* se agrego el margen y ancho del contenedor*/
+.contenedor2 img{
+padding-bottom: 10px;
+width: 10%;
+}/* se agrego el margen de las imagenes en el contenedor 2  que es contiene el menu y el logo en la parte superior*/
+.contenedor2 ul li a {
+padding-bottom: 20px;
+text-transform: uppercase;
+font-size: 24px;
+text-decoration: none;
+}/*se agrego el margen de las listas*/
+header nav {
+	background:#2FED7D ;
+	margin-bottom:10px;
+}/*se agrego fondo y margen al header */
+nav {
+padding:10px;
+
+} /* se agrego el padding del navegador*/
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:35px;
+	color:#fff;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+background:#2FED7D;
+}
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+.menu-fixed ul li a {
+   padding: 15px 20px;
+}/*se le definieron las posiciones al menu*/
+
+  
+
+.social-bar {
+position: fixed;
+	left: 0;
+	top: 40%;
+	font-size: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+} /*se definieron las posiciones de la barra social */
+
+
+
+.icon-whatsapp {
+	background: #0FF44B    ;
+}/*se definio el fondo del icono de whatsapp */
+
+.icon-gmail {
+	background: #F49511    ;
+} /*se definio el fondo del icono de gmail */
+
+.icon-chrome {
+	background: #2CCDD6  ;
+}/*se definio el fondo del icono del buscador google chrome */
+.icon-maps{
+	background:#6B86ED   ;
+} /*se definio el fondo de maps*/
+
+.icon:first-child {
+	border-radius: 3px;
+}/*se definio el borde de los iconos en el side bar*/
+
+.icon:last-child {
+	border-radius:3px;
+} /*se definio el borde de los iconos en el side bar*/
+
+.icon:hover {
+	padding-right: 20px;
+	
+	box-shadow: 10px;
+}
+
+.contenedor3{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+}/* se definieron los margenes del contendor 3*/
+
+
+.contenedor3 h1{
+
+	text-align: center;
+	background-color:#56FA99;
+	color: #fff;
+	padding-bottom: 10px,;
+	font-size: 28px;
+} /*se definio el fondo de los textos de titulo utilizados en
+la parte superior de todas las paginas*/
+header h1 {
+color: #fff;
+padding: 20px 0px;
+text-align: center;
+}/*se definio el color y alineado del texto en el encabezado*/
+
+.main{
+width: 70%;
+background: #fff;
+padding: 20px;
+float:left;
+box-sizing: border-box;
+} /*se definio el padding, fondo, y ancho del texto entre las etiquetas P */
+.main img{
+     width:50%;
+     height:auto;
+    border-radius: 10px;    
+}/* se definio el borde, ancho y alto de la imagen dentro
+de la etiqueta P */
+.main p {
+	font-size: 18px;
+} /*se definio el tamaño de la fuente en el texto dentro de P */
+
+aside{
+
+width: 30%;
+padding: 50px;
+height: 1106px;
+box-sizing: border-box;
+background:#008080;
+float: left;
+
+} /*se definio el ancho, alto, estilo del borde,
+fondo y ubicacion del formulario dentro de la pagina web*/
+footer{
+clear: both;
+width: 100%;
+padding: 20px;
+margin-top:20px;
+box-sizing: border-box;
+background: #fff;
+color:#000;
+float: left;
+text-align: center
+}/*se definieron los margenes, fondo y ubicacion del footer*/
+
+.contenedor4{
+	width: 100%;
+	max-width: 1000px;
+	margin:auto;
+}/*se definieron los margenes del contenedor 4 en contacto que
+se redefinio porque no calzaba con otros contenedores*/
+
+
+header{
+	background: #323146;
+	margin: 20px 0px;
+}/*se definio el margen sobre el logo en la parte superior 
+que identifica el sitio web*/
+
+.main1{
+width: 100%;
+background: #fff;
+padding: 30px;
+float:left;
+box-sizing: border-box;
+}/*se definio el color , ancho, y ubicacion del fondo en los apartados
+de nosotros, galeria y ubicacion. Esto porque no coincidian con las configuraciones de 
+inicio que tenia el formulario de contacto que era totalmente diferente a
+los demas y no era adecuado utilizarlo igual según las indicaciones del cliente. Y 
+tambien en comparacion con contacto se utilizo un estilo diferente
+porque contacto abarcaba un espacio muy reducido y si se usaba el mismo estilo 
+se desaprovechaba el espacio
+ */
+.main1 img{
+     width:50%;
+     height:350px;
+     border-radius: 10px; 
+} /*se definio el tamaño, ancho y borde de las imagenes dentro de la clase main*/
+
+}
+.main1 p{
+     font-size: 30px;   
+} /*se definio el tamaño de fuente dentro de los textos en main*/
+
+}
+footer{
+clear: both;
+width: 100%;
+padding: 20px;
+margin-top:20px;
+box-sizing: border-box;
+background: #fff;
+color:#000;
+float: left;
+text-align: center
+}  /*se definio un nuevo footer adaptado a los apartados nosotros, galeria y ubicacion*/
+
+
+form{
+width: 265px;
+background-color: #28CBBA;
+margin-top: 175px;
+margin-left: -35px;
+border-style: none;
+border-radius: 10px;
+}  /*se establecio un ancho, fondo, borde y margenes del formulario*/
+input{
+  margin:15px;
+  padding:10px;
+  width: 210px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}  /*se establecio el ancho, tamaño de fuente, borde y margenes de los apartados 
+en el formulario de contacto que deben rellenar los usuarios*/
+input[type="submit"]{
+margin-top: 5px;
+margin-bottom: 15px;
+width: 233px;
+border-radius: 10px;
+} /* se utilizo el codigo para definir los margenes y ancho del boton enviar*/
+textarea{
+  margin:15px;
+  padding:10px;
+  width: 266px;
+  font-size: 18px;
+  min-width: 30px;
+  max-width:210px;
+  min-height:150px;
+  max-height:10px;
+  margin-bottom:5px;
+  border-radius: 10px;
+  border-radius: 10px;
+}  /*con el codigo se definio el tamaño de fuente, y los margenes del apartado donde el 
+cliente redactara el mensaje*/
+
+.puntamala img{
+
+	width: 50%;
+	height: 400px;
+	padding-right: 10px;
+} /*se definio el tamaño de la imagen en galeria*/
+
+.puntamala ul li{font-size: 18px;
+} /*se definio el tamaño de fuente de texto dentro de la clase PUNTA MALA*/
+
+.angeles img{
+	width: 50%;
+	height:400px;
+	padding-right: 10px;
+}
+.angeles{font-size: 20px;
+}
+.angeles ul li{
+font-size:18px;
+}
+
+
+
+main {
+	margin-top: 150px;
+} /*se definio el espacio en que se coloco el video*/
+
+main .contenedor {
+	width: 90%;
+	max-width: 610px;
+	margin: auto;
+} /*se le dio el ancho al video para adecuarlo a la pagina web*/
+
+
+.fm-video {
+	width: 100%;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5) ;
+  border-radius: 6px;
+
+}/*se definio el ancho y la sombra al video*/
+
+ .slider{
+    width:90%;
+    max-width: 610px;
+    margin:auto;
+    overflow:hidden;
+    margin-top:50px;
+}
+.slider ul{
+    display:flex;
+    padding:0;
+    width:400%;
+    animation:cambio 20s infinite alternate;
+}
+
+.slider ul:hover{
+    animation-play-state:paused;
+    cursor:pointer;
+}
+.slider li{
+    width:100%;
+    list-style:none;
+   
+}
+.slider img{
+    width:610px;
+    height:360px;
+    
+}
+@keyframes cambio{
+    0%{margin-left:0% ;}
+    20%{margin-left:0%;}
+    
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+   
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+
+
+
+
+
+
+
+.slider3 {
+  width: 90%;
+  max-width: 610px;
+  margin:auto;
+  overflow: hidden;
+  margin-top:50px;
+}
+
+.slider3 ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: cambio 20s infinite alternate;
+}
+.slider3 ul:hover{
+animation-play-state: paused;
+cursor: pointer;
+
+}
+
+.slider3 li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider3 img {
+  width:600px;
+  height:360px;
+    
+}
+@keyframes cambio{
+    0%{margin-left:0%;}
+    20%{margin-left:0%;}
+    
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+   
+    75%{margin-left:0%;}
+    100%{margin-left:0%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
